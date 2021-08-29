@@ -10,7 +10,7 @@
 
 ### Date
 
-08/27/2021
+Augest, 2021
 
 ### Model version
 
@@ -90,9 +90,7 @@ None
 
 training & testing
 
-Air
-
-AUC
+AIR
 
 ### Software used to implement the model
 
