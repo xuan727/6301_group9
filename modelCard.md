@@ -88,8 +88,6 @@ None
 
 ### Type of model
 
-training & testing
-
 AIR
 
 ### Software used to implement the model
@@ -106,11 +104,7 @@ None
 
 ### Metrics used to evaluate final model
 
-Decision Tree
-
-confusion metrics
-
-Cutoff
+AUC
 
 ### Final values of the metrics for all data
 
