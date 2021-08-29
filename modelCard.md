@@ -18,7 +18,7 @@
 
 ### license
 
-Apache 2.0 License, Copyright (c) 2021, Runzhe Tang, Zhangtao Ying & Xuan Zhao.
+Apache 2.0 License, Copyright (c) 2021, Tang Runzhe, Ying Zhangtao & Zhao Xuan.
 
 ### Model implementation code
 
@@ -26,9 +26,9 @@ https://colab.research.google.com/github/xuan727/6301_group9/blob/main/6301_grou
 
 ### Intended Use
 
-- Intended uses
-- Intended users
-- Out-of-scope uses
+- Intended uses: This model is an "example" probability of default classifier, with an "example" use case for determining eligibility for a credit line increase.
+- Intended users: Students in GWU DNSC 6301 bootcamp
+- Out-of-scope uses: Any use beyond an educational example
 
 # Training data
 
@@ -140,6 +140,6 @@ Cutoff
 - Simulated recession conditions for the model resulting in the major drop in performance.
 
 ### conclusion
-Overall, this was a great learning process to better understand the general rules and steps within interpretable machine learning models for ensuring fairness, security, and accuracy. Our group is open to constructive criticism and would like to receive any feedback as to how to improve the EBM model presented in this model card.
+Overall, this was a great learning process to better understand the general rules and steps within interpretable machine learning models for ensuring fairness, security, and accuracy. Our group is open to constructive criticism and would like to receive any feedback as to how to improve the model presented in this model card.
 
 
