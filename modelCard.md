@@ -115,17 +115,17 @@ AUC
 
 ### Plots related to the data
 
-![image-20210828173111746](/Users/zhuobinyuan/Library/Application Support/typora-user-images/image-20210828173111746.png)
+<img src="C:/Users/XuanZhao/Desktop/GWU课程文件/6301/plot1.png" alt="plot1" style="zoom:50%;" />
 
-![image-20210828173139981](/Users/zhuobinyuan/Library/Application Support/typora-user-images/image-20210828173139981.png)
+<img src="C:/Users/XuanZhao/Desktop/GWU课程文件/6301/plot2.png" alt="plot2" style="zoom:50%;" />
 
-<img src="/Users/zhuobinyuan/Library/Application Support/typora-user-images/image-20210828173039674.png" alt="image-20210828173039674" style="zoom:50%;" />
+<img src="C:/Users/XuanZhao/Desktop/GWU课程文件/6301/plot3.png" alt="plot3" style="zoom:50%;" />
 
-**<img src="/Users/zhuobinyuan/Library/Application Support/typora-user-images/image-20210828173232281.png" alt="image-20210828173232281" style="zoom:50%;" />**
+<img src="C:/Users/XuanZhao/Desktop/GWU课程文件/6301/plot4.png" alt="plot4" style="zoom:50%;" />
 
-<img src="/Users/zhuobinyuan/Library/Application Support/typora-user-images/image-20210828173317400.png" alt="image-20210828173317400" style="zoom:50%;" />
+<img src="C:/Users/XuanZhao/Desktop/GWU课程文件/6301/plot5.png" alt="plot5" style="zoom:50%;" />
 
-<img src="/Users/zhuobinyuan/Library/Application Support/typora-user-images/image-20210828173340552.png" alt="image-20210828173340552" style="zoom:50%;" />
+<img src="C:/Users/XuanZhao/Desktop/GWU课程文件/6301/plot6.png" alt="plot6" style="zoom:50%;" />
 
 ### Potential negative impacts of using the model
 
