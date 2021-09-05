@@ -33,8 +33,7 @@ https://colab.research.google.com/github/xuan727/6301_group9/blob/main/6301_grou
 # Training data
 
 ### Source of training data
-
-'credit_line_increase.csv'
+GWU Blackboard email 'rtang29@gwmail.gwu.edu','zying@gwmail.gwu.edu', or'xuanzhao@gwmail.gwu.edu' for more information
 
 ### How training data division and validation data
 
