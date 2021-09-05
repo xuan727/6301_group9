@@ -101,7 +101,7 @@ Version of the modeling software:Python 3.7.11, scikit-learn 0.22.2.post1
 
 # Quantitative analysis
 
-Metrics used to evaluate your final model: To determine an ideal depth of six for the final model by using the trainning; validation AUC and AIR
+Metrics used to evaluate your final model: To determine an ideal depth of six for the final model by using the training; validation AUC and AIR
 Final values of the mtrics for all data:
 - Training AUC: 0.78
 - Validation AUC:0.75
