@@ -97,16 +97,6 @@ Version of the modeling software:Python 3.7.11, scikit-learn 0.22.2.post1
 
 ### Plots related to the data
 
-![image](https://user-images.githubusercontent.com/89608926/132131387-9dd1c38d-c94f-4249-b9f2-01de472ff4a1.png)
-
-![image](https://user-images.githubusercontent.com/89608926/132131404-bec76b29-84de-4a5d-a01c-5d02dd7a2869.png)
-
-![image](https://user-images.githubusercontent.com/89608926/132131408-11927831-6960-4d4b-b681-2a25db53d702.png)
-
-![image](https://user-images.githubusercontent.com/89608926/132131433-78cfb591-5d3c-491f-ad96-4dd3faf461e1.png)
-
-![image](https://user-images.githubusercontent.com/89608926/132131446-540d4af4-ea9b-471e-92e5-9bec130df32c.png)
-
 ![image](https://user-images.githubusercontent.com/89608926/132131456-09669153-571d-46b2-bcc8-fcad3b3fee95.png)
 
 # Quantitative analysis
