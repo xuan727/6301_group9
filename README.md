@@ -106,10 +106,10 @@ Final values of the mtrics for all data:
 - Training AUC: 0.78
 - Validation AUC:0.75
 - Test AUC:0.74
-- Hispanic-to-White AIR:0.83
-- Female-to-Male AIR:1.02
-- Black-to-White AIR: 0.85
-- Asian-to-White AIR:1.00
+- Hispanic-to-White AIR:0.79
+- Female-to-Male AIR:1.04
+- Black-to-White AIR: 0.81
+- Asian-to-White AIR:1.02
 
 # Ethical considerations
 
