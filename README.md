@@ -43,6 +43,11 @@ Validation data: 7500 rows and 20 columns
 
 Testing data: 7500 rows and 20 columns
 
+### Test data
+
+Source of test data: GWU Blackboard, email 'rtang29@gwmail.gwu.edu','zying@gwmail.gwu.edu', or'xuanzhao@gwmail.gwu.edu' for more information
+Number of rows in test data: 7500 rows
+
 ### Number of rows in training and validation data
 
 Training data: 15000 rows and 20 columns 
@@ -64,6 +69,14 @@ Validation data: 7500 rows and 20 columns
 | **BILL_AMT1 - BILL_AMT6** | inputs | float | amount of bill statement; BILL_AMNT1 = amount of bill statement in September, 2005; BILL_AMT2 = amount of bill statement in August, 2005; ...; BILL_AMT6 = amount of bill statement in April, 2005 |
 | **PAY_AMT1 - PAY_AMT6** | inputs | float | amount of previous payment; PAY_AMT1 = amount paid in September, 2005; PAY_AMT2 = amount paid in August, 2005; ...; PAY_AMT6 = amount paid in April, 2005 |
 | **DELINQ_NEXT**| target | int | whether a customer's next payment is delinquent (late), 1 = late; 0 = on-time |
+
+### Model details
+
+Columns used as inputs in the final model: 'LIMIT_BAL','PAY_0','PAY_4','PAY_5','PAY_6','BILL_AMT1','BILL_AMT2','BILL_AMT'3,'BILL_AMT4','BILL_AMT5','BILL_AMT6','PAY_AMT1','PAY_AMT2','PAY_AMT3','PAY_AMT4','PAY_AMT5','PAY_AMT6'
+Column used as target in the final model:'DELINQ_NEXT'
+Type of model:DECISION TREE
+Software used to implement the model:Python3, scikit-learn
+Version of the modeling software:Python 3.7.11, scikit-learn 0.22.2.post1
 
 ### Source of test data
 
@@ -114,17 +127,29 @@ AUC
 
 ### Plots related to the data
 
-<img src="C:/Users/XuanZhao/Desktop/GWU课程文件/6301/plot1.png" alt="plot1" style="zoom:50%;" />
+![image](https://user-images.githubusercontent.com/89608926/132131387-9dd1c38d-c94f-4249-b9f2-01de472ff4a1.png)
 
-<img src="C:/Users/XuanZhao/Desktop/GWU课程文件/6301/plot2.png" alt="plot2" style="zoom:50%;" />
+![image](https://user-images.githubusercontent.com/89608926/132131404-bec76b29-84de-4a5d-a01c-5d02dd7a2869.png)
 
-<img src="C:/Users/XuanZhao/Desktop/GWU课程文件/6301/plot3.png" alt="plot3" style="zoom:50%;" />
+![image](https://user-images.githubusercontent.com/89608926/132131408-11927831-6960-4d4b-b681-2a25db53d702.png)
 
-<img src="C:/Users/XuanZhao/Desktop/GWU课程文件/6301/plot4.png" alt="plot4" style="zoom:50%;" />
+![image](https://user-images.githubusercontent.com/89608926/132131433-78cfb591-5d3c-491f-ad96-4dd3faf461e1.png)
 
-<img src="C:/Users/XuanZhao/Desktop/GWU课程文件/6301/plot5.png" alt="plot5" style="zoom:50%;" />
+![image](https://user-images.githubusercontent.com/89608926/132131446-540d4af4-ea9b-471e-92e5-9bec130df32c.png)
 
-<img src="C:/Users/XuanZhao/Desktop/GWU课程文件/6301/plot6.png" alt="plot6" style="zoom:50%;" />
+![image](https://user-images.githubusercontent.com/89608926/132131456-09669153-571d-46b2-bcc8-fcad3b3fee95.png)
+
+### Quantitative analysis
+
+Metrics used to evaluate your final model: To determine an ideal depth of six for the final model by using the trainning; validation AUC and AIR
+Final values of the mtrics for all data:
+- Training AUC: 0.78
+- Validation AUC:0.75
+- Test AUC:0.74
+- Hispanic-to-White AIR:0.83
+- Female-to-Male AIR:1.02
+- Black-to-White AIR: 0.85
+- Asian-to-White AIR:1.00
 
 ### Potential negative impacts of using the model
 
@@ -139,7 +164,6 @@ AUC
 - Legal implications of implementing the model in the real-world.
 - Simulated recession conditions for the model resulting in the major drop in performance.
 
-### conclusion
-Overall, this was a great learning process to better understand the general rules and steps within interpretable machine learning models for ensuring fairness, security, and accuracy. Our group is open to constructive criticism and would like to receive any feedback as to how to improve the model presented in this model card.
-
+### Ethical considerations
+Overall, this was a great learning process to better understand the general rules and steps within interpretable machine learning models for ensuring fairness, security, and accuracy. The implicit bias may still exist in the data even though we mitigated the explicit bias by using non-demographic data in the model. When Black-to-White AIR and Hispanic-to-White AIR are above 0.80, the result may turn out a risk to their reputation; meanwhile, the outcome of AIR was improved when the cutoff is at 0.18.
 
