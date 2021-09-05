@@ -11,7 +11,7 @@
 
 ### Date
 
-Augest, 2021
+August, 2021
 
 ### Model version
 
