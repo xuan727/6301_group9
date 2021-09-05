@@ -1,7 +1,8 @@
 # Group_9_ModelCard
 
- ### Group members
+# Basic information
 
+### Group Member names and emails
  -Tang Runzhe（rtang29@gwmail.gwu.edu)
 
  -Ying Zhangtao (zying@gwmail.gwu.edu)
@@ -15,6 +16,14 @@ Augest, 2021
 ### Model version
 
 1.0
+
+### Software used to implement the model
+
+Jupyter Notebook/Colaboratory
+
+### Version of the modeling software
+
+Version 2.1.5
 
 ### license
 
@@ -37,22 +46,11 @@ GWU Blackboard email 'rtang29@gwmail.gwu.edu','zying@gwmail.gwu.edu', or'xuanzha
 
 ### How training data division and validation data
 
-Training data: 15000 rows and 20 columns 
+- Training data: 15000 rows and 20 columns 
 
-Validation data: 7500 rows and 20 columns 
+- Validation data: 7500 rows and 20 columns 
 
-Testing data: 7500 rows and 20 columns
-
-### Test data
-
-Source of test data: GWU Blackboard, email 'rtang29@gwmail.gwu.edu','zying@gwmail.gwu.edu', or'xuanzhao@gwmail.gwu.edu' for more information
-Number of rows in test data: 7500 rows
-
-### Number of rows in training and validation data
-
-Training data: 15000 rows and 20 columns 
-
-Validation data: 7500 rows and 20 columns
+- Testing data: 7500 rows and 20 columns
 
 ### Data dictionary
 
@@ -70,53 +68,25 @@ Validation data: 7500 rows and 20 columns
 | **PAY_AMT1 - PAY_AMT6** | inputs | float | amount of previous payment; PAY_AMT1 = amount paid in September, 2005; PAY_AMT2 = amount paid in August, 2005; ...; PAY_AMT6 = amount paid in April, 2005 |
 | **DELINQ_NEXT**| target | int | whether a customer's next payment is delinquent (late), 1 = late; 0 = on-time |
 
-### Model details
+# Test data
+
+- Source of test data: GWU Blackboard, email 'rtang29@gwmail.gwu.edu','zying@gwmail.gwu.edu', or'xuanzhao@gwmail.gwu.edu' for more information
+- Number of rows in test data: 7500 rows
+- State any differences in columns between training and test data: None
+
+### Number of rows in training and validation data
+
+Training data: 15000 rows and 20 columns 
+
+Validation data: 7500 rows and 20 columns
+
+# Model details
 
 Columns used as inputs in the final model: 'LIMIT_BAL','PAY_0','PAY_4','PAY_5','PAY_6','BILL_AMT1','BILL_AMT2','BILL_AMT'3,'BILL_AMT4','BILL_AMT5','BILL_AMT6','PAY_AMT1','PAY_AMT2','PAY_AMT3','PAY_AMT4','PAY_AMT5','PAY_AMT6'
 Column used as target in the final model:'DELINQ_NEXT'
 Type of model:DECISION TREE
 Software used to implement the model:Python3, scikit-learn
 Version of the modeling software:Python 3.7.11, scikit-learn 0.22.2.post1
-
-### Source of test data
-
-'credit_line_increase.csv'
-
-### Number of rows in test data
-
-7500
-
-### Differences in columns between training and test data
-
-None
-
-### Columns used as inputs in the final model
-
-20
-
-### Columns used as targets in the final model
-
-20
-
-### Type of model
-
-AIR
-
-### Software used to implement the model
-
-Jupyter Notebook
-
-### Version of the modeling software
-
-Version 2.1.5
-
-### Hyperparameters or other settings of model
-
-None
-
-### Metrics used to evaluate final model
-
-AUC
 
 ### Final values of the metrics for all data
 
@@ -139,7 +109,7 @@ AUC
 
 ![image](https://user-images.githubusercontent.com/89608926/132131456-09669153-571d-46b2-bcc8-fcad3b3fee95.png)
 
-### Quantitative analysis
+# Quantitative analysis
 
 Metrics used to evaluate your final model: To determine an ideal depth of six for the final model by using the trainning; validation AUC and AIR
 Final values of the mtrics for all data:
@@ -150,6 +120,8 @@ Final values of the mtrics for all data:
 - Female-to-Male AIR:1.02
 - Black-to-White AIR: 0.85
 - Asian-to-White AIR:1.00
+
+# Ethical considerations
 
 ### Potential negative impacts of using the model
 
@@ -164,6 +136,6 @@ Final values of the mtrics for all data:
 - Legal implications of implementing the model in the real-world.
 - Simulated recession conditions for the model resulting in the major drop in performance.
 
-### Ethical considerations
+### Conclusion
 Overall, this was a great learning process to better understand the general rules and steps within interpretable machine learning models for ensuring fairness, security, and accuracy. The implicit bias may still exist in the data even though we mitigated the explicit bias by using non-demographic data in the model. When Black-to-White AIR and Hispanic-to-White AIR are above 0.80, the result may turn out a risk to their reputation; meanwhile, the outcome of AIR was improved when the cutoff is at 0.18.
 
